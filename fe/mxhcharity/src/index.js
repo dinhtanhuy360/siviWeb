@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Homepage from './pages/user/homepage';
+import { BrowserRouter } from 'react-router-dom';
+import RouterCustom from './router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Homepage/>);
+root.render(
+
+    <BrowserRouter>
+        <RouterCustom/>
+     </BrowserRouter>
+);
 // root.render(
 //   <React.StrictMode>
 //     <App />
