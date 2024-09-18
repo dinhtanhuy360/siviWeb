@@ -1,11 +1,6 @@
-<<<<<<< HEAD
+import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-=======
-import React  from 'react';
-import logo from './logo.svg';
-import './App.css';
->>>>>>> e94a177a927f6dd3d10d7c1fa098c84c3fd0ab2b
 
 function App() {
   return (
@@ -19,5 +14,5 @@ function App() {
     </div>
   );
 }
- 
+
 export default App;

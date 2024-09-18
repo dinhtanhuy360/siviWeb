@@ -13,7 +13,7 @@ const renderUserRouter = () => {
 return(
     <Routes>
         {userRouters.map((item, key) => ( 
-            <Route key={key} path={item.path} element = {item.component}/> ))}
+            <Route key={key} path={item.path} element = {item.component}/> ))} 
     </Routes>
 );
 };
