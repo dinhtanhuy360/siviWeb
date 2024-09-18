@@ -1,5 +1,6 @@
 export const ROUTERS = {
-    USER : {
-        HOME : "",
-     }
-}
+  USER: {
+    HOME: "",
+  },
+};
+// định nghĩa đường dẫn và url
